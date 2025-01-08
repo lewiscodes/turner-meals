@@ -1,0 +1,15 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.homeIcon {
+  width: 35px;
+  cursor: pointer;
+}
