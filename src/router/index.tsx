@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -10,12 +10,12 @@ import Recipie from '../pages/Recipie'
 const Router = () => {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/recipie/:id" element={<Recipie />} />
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

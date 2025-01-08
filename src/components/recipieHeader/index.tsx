@@ -9,7 +9,7 @@ const RecipieHeader = ({ recipie }: IRecipieHeaderProps) => {
   return (
     <div className='recipieHeader'>
       <h1>{recipie.name}</h1>
-      <img className='image' src={`/images/${recipie.image}`} />
+      <img className='image' src={`${import.meta.env.BASE_URL}/images/${recipie.image}`} />
     </div>
   )
 }
