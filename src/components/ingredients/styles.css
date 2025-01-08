@@ -1,6 +1,6 @@
 .ingredientsTable {
+  min-width: 350px;
   text-align: left;
-  margin: auto;
 }
 
 .ingredientName {

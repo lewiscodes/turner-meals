@@ -10,7 +10,7 @@ interface IMethodProps {
 }
 
 const Method = ({ methodSteps }: IMethodProps) => {
-  return methodSteps.map((step, index) => <MethodStep key={index} index={index + 1} step={step} />)
+  return <div className="method">{methodSteps.map((step, index) => <MethodStep key={index} index={index + 1} step={step} />)}</div>
 }
 
 interface IMethodStepProps {

@@ -4,6 +4,7 @@ import Tabs, { ITab } from "../tabs";
 import RecipieHeader from "../recipieHeader";
 import Ingredients from "../ingredients";
 import Method from "../method";
+import Viewer from "../viewer";
 
 interface IContainerProps {
   readonly recipie: IRecipie;
@@ -31,8 +32,8 @@ const Container = ({ recipie }: IContainerProps): JSX.Element => {
 
   return (
     <>
-      <RecipieHeader recipie={recipie} />
-      {isMobile ? <Tabs tabs={tabs} /> : <div>Container - Desktop</div>}
+      <RecipieHeader recipie={recipie} isMobile={isMobile} />
+      {isMobile ? <Tabs tabs={tabs} /> : <Viewer recipie={recipie} />}
     </>
   )   
 }
