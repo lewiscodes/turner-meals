@@ -10,6 +10,7 @@ interface IInputProps {
 const Input = ({ onBlur, onChange, onFocus, value }: IInputProps) => {
   return (
     <input
+      autoComplete='off'
       className='textInput'
       onBlur={onBlur}
       onChange={e => onChange(e.target.value)}  
