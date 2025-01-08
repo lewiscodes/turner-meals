@@ -15,6 +15,7 @@ const Input = ({ onBlur, onChange, onFocus, value }: IInputProps) => {
       onChange={e => onChange(e.target.value)}  
       onFocus={onFocus}
       placeholder='Search...'
+      type='search'
       value={value}
     />
   )
