@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/turner-meals" />
+    <meta http-equiv="refresh" content="0; url=<%= window.location.pathname %>" />
+    <script type="text/javascript">
+      window.location.replace(window.location.pathname);
+    </script>
   </head>
   <body>
     <p>If you are not redirected, <a href="/turner-meals">click here</a>.</p>
