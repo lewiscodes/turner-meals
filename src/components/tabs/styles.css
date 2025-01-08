@@ -1,0 +1,20 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  font-size: x-large;
+  flex-grow: 1;
+  transition: box-shadow 0.3s ease;
+}
+
+.tab:hover {
+  text-decoration: underline;
+}
+
+.component {
+  padding: 2rem;
+}

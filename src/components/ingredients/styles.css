@@ -1,0 +1,12 @@
+.ingredientsTable {
+  text-align: left;
+  margin: auto;
+}
+
+.ingredientName {
+  padding-right: 20px;
+}
+
+.ingredientAmount {
+  font-weight: 300;
+}

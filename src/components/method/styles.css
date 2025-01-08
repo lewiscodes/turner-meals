@@ -1,0 +1,14 @@
+.stepContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.descriptionContainer {
+  
+}
+
+.icon {
+  max-width: 50px;
+}
