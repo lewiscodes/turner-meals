@@ -9,16 +9,18 @@ interface IInputProps {
 
 const Input = ({ onBlur, onChange, onFocus, value }: IInputProps) => {
   return (
-    <input
-      autoComplete='off'
-      className='textInput'
-      onBlur={onBlur}
-      onChange={e => onChange(e.target.value)}  
-      onFocus={onFocus}
-      placeholder='Search...'
-      type='search'
-      value={value}
-    />
+    <form action='.'>
+        <input
+          autoComplete='off'
+          className='textInput'
+          onBlur={onBlur}
+          onChange={e => onChange(e.target.value)}  
+          onFocus={onFocus}
+          placeholder='Search...'
+          type='search'
+          value={value}
+        />
+    </form>
   )
 }
 
