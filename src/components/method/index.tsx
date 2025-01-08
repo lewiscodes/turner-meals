@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { IMethodStep } from "../../types/recipies"
 import Card from "../card";
-import bakeImage from './icons/bake.png'
-import cookingImage from './icons/cooking.png'
+import bakeImage from '../../icons/bake.png'
+import cookingImage from '../../icons/cooking.png'
 import './styles.css'
 
 interface IMethodProps {
