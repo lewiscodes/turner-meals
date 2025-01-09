@@ -108,6 +108,103 @@ const recipies: IRecipie[] = [
       { step: "prep" , description: 'Add the pasta and roast tomatoes to a bowl and drizzle over the pesto.' },
       { step: "prep" , description: 'Spoon over and juices from the roast tomatoes' },
     ]
+  },
+  {
+    id: 4,
+    name: 'Thai Style Peanut Chicken Stir Fry',
+    minutes: 25,
+    image: '4.png',
+    tags: ['chicken', 'rice', 'thai', 'spicy'],
+    ingredients: [
+      { name: 'Jasmine Rice', amount: 150, measure: "grams" },
+      { name: 'Green Beans', amount: 150, measure: "grams" },
+      { name: 'Garlic Clove', amount: 2, measure: "item" },
+      { name: 'Chicken Thighs', amount: 240, measure: "grams" },
+      { name: 'Yellow Thai Curry Paste', amount: 45, measure: "grams" },
+      { name: 'Ketjap Manis', amount: 25, measure: "grams" },
+      { name: 'Peanut Butter', amount: 30, measure: "grams" },
+      { name: 'Sugar', amount: 1, measure: "tsp" },
+    ],
+    method: [
+      { step: "cooking" , description: 'Cook the rice.' },
+      { step: "prep" , description: 'Trim and Halve the green beans.' },
+      { step: "prep" , description: 'Peel and grate the garlic.' },
+      { step: "prep" , description: 'Dice the chicken' },
+      { step: "cooking" , description: 'Heat a drizzle of oil in a frying pan and add the chicken and green beans until the chickn has browned (5 - 6 minutes)' },
+      { step: "cooking" , description: 'Stir in the garlic and yellow thai curry paste and cook for 1 minute (until fragrant)' },
+      { step: "cooking" , description: 'Add the ketjap manis, peanut butter, sugar and 150ml of water to the pan.' },
+      { step: "cooking" , description: 'Bring to the boil and reduce the heat to simmer for 5 - 6 minutes.' },
+      { step: "cooking" , description: 'Season wiht salt and pepper and add more water if needed.' }
+    ]
+  },
+  {
+    id: 5,
+    name: 'Roasted Sweet Potato and Kidneyt Bean Chilli',
+    minutes: 40,
+    image: '5.png',
+    tags: ['sweet potato', 'rice', 'spicy'],
+    ingredients: [
+      { name: 'Sweet Potato', amount: 1, measure: "item" },
+      { name: 'Cajun Spice Mix', amount: 1, measure: "tbsp" },
+      { name: 'Basmati Rice', amount: 150, measure: "grams" },
+      { name: 'Green Beans', amount: 80, measure: "grams" },
+      { name: 'Garlic Clove', amount: 1, measure: "item" },
+      { name: 'Red Kidney Beans', amount: 1, measure: "tin" },
+      { name: 'Cheddar Cheese', amount: 30, measure: "grams" },
+      { name: 'Tomato Passata', amount: 1, measure: "tin" },
+      { name: 'BBQ Sauce', amount: 50, measure: "grams" },
+      { name: 'Vegetable Stock', amount: 150, measure: "ml" },
+      { name: 'Sour Cream', amount: 75, measure: "grams" },
+      { name: 'Sugar', amount: 1, measure: "tbsp" },
+    ],
+    method: [
+      { step: "prep" , description: 'Preheat the oven (200deg).' },
+      { step: "prep" , description: 'Chop the sweet potato into 1cm chunks and toss with oil and salt and pepper and half of the cajun spice mix.' },
+      { step: "cooking" , description: 'Roast in the oven for 18 - 20 minutes.' },
+      { step: "cooking" , description: 'Cook the rice.' },
+      { step: "prep" , description: 'Trim and halve the green beans.' },
+      { step: "cooking" , description: 'Heat a drizzle of oil in a pan and add the green beans. Fry until charred (2 - 3 miniutes) then add a splash of water and put the lid on the pan. Cook for 4 - 5 mimutes.' },
+      { step: "prep" , description: 'Peel and grate the garlic.' },
+      { step: "prep" , description: 'Drain and rinse the kidney beans.' },
+      { step: "prep" , description: 'Grate the cheese.' },
+      { step: "cooking" , description: 'Add some oil to a pan with the garlic and remaining cajun seasoning. Cook for 1 minute.' },
+      { step: "cooking" , description: 'Add the passata, BBQ sauce, kidney beans, vegetable stock, sugar and salt and pepper. Simmer for 8 - 10 minutes.' },
+      { step: "cooking" , description: 'Once the sauce has thickened, stir throgh the roasted sweet potato.' },
+      { step: "prep" , description: 'Serve with sour cream and grated cheese.' }
+    ]
+  },
+  {
+    id: 6,
+    name: 'Speedy Spiced Chicken Udon',
+    minutes: 25,
+    image: '6.png',
+    tags: ['chicken', 'spicy', 'noodles'],
+    ingredients: [
+      { name: 'Bell Pepper', amount: 1, measure: "item" },
+      { name: 'Chicken Breast', amount: 260, measure: "grams" },
+      { name: 'Garlic Clove', amount: 2, measure: "item" },
+      { name: 'Ketjap Manis', amount: 50, measure: "grams" },
+      { name: 'Soy Sauce', amount: 15, measure: "ml" },
+      { name: 'Udon Noodles', amount: 220, measure: "grams" },
+      { name: 'Coleslaw Mix', amount: 120, measure: "grams" },
+      { name: 'Indonesian Spice Mix', amount: 1, measure: "tbsp" },
+      { name: 'Salted Peanuts', amount: 25, measure: "grams" },
+      { name: 'Tomato Ketchup', amount: 2, measure: "tbsp" },
+      { name: 'Butter', amount: 20, measure: "grams" }
+    ],
+    method: [
+      { step: "prep" , description: 'Slice the pepper into thin strips.' },
+      { step: "prep" , description: 'Dice the chicken breast.' },
+      { step: "cooking" , description: 'Heat some oil in a frying pan and add the petter and chicken. Season with salt and pepper and cook for 8 - 10 minutes (until golden).' },
+      { step: "prep" , description: 'Boil a kettle and peel and grate the garlic.' },
+      { step: "prep" , description: 'Combine the ketjap manis, soy sauce, ketchup and 50ml of water.' },
+      { step: "cooking" , description: 'Submerge the noodles in boiling water and cover. Leave for 2-3 minutes then drain.' },
+      { step: "cooking" , description: 'Add the coleslaw mix, garlic and indonesian spice mix to the chicken. Cook for 1 - 2 minutes.' },
+      { step: "cooking" , description: 'Add the sauce mixtiure to the chicken. Bring to the boil then simmer for 2 - 3 minutes until reduced.' },
+      { step: "prep" , description: 'Crush the peanuts.' },
+      { step: "cooking" , description: 'Add the noodles and butter to the pan.' },
+      { step: "prep" , description: 'Serve with the crushed peanuts.' },
+    ]
   }
 ]
 
